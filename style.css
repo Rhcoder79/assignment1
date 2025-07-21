@@ -37,7 +37,7 @@ background-image: url(images/Hero-bg.png);
 flex-direction: column;
     text-align: center;
     justify-content: center;
-    justify-items: center;
+   
 }
 
 .banner>h1{
@@ -45,3 +45,30 @@ flex-direction: column;
     color: #252432;
   
 }
+.action{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.le-si{
+    display: flex;
+    flex-direction: column;   
+justify-content: center;
+gap: 10px;
+}
+.le-si>h4{
+    font-size: 26px;
+}
+.le-si>p{
+   
+    color: #252432;
+    font-size: 16px;
+}
+.ri-si{
+    width: 20%;
+}
+.ri-si>img{
+    border-radius: 20px;
+    width: 100%;
+}
+
