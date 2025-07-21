@@ -3,6 +3,8 @@
     padding: 0;
 
 }
+
+ /* navbar start */
 .navbar{
 background-image: url(images/Hero-bg.png);
 
@@ -32,6 +34,7 @@ background-image: url(images/Hero-bg.png);
     border-radius: 5px;
     border: none;
 }
+ /* banner start */
 .banner{
     display: flex;
 flex-direction: column;
@@ -45,6 +48,7 @@ flex-direction: column;
     color: #252432;
   
 }
+ /* action start */
 .action{
     display: flex;
     justify-content: space-around;
@@ -71,4 +75,27 @@ gap: 10px;
     border-radius: 20px;
     width: 100%;
 }
+ /* productive start */
+.Productive{
+    width: 80%;
+ margin: auto;
+    background-color: rgb(218, 215, 215);
+    padding: 40px;
+}
+.fir-chi{
+    text-align: center;
+}
+.sec-chi{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
 
+}
+.ratio{
+    color: #4E47FF;
+    font-size: 50px;
+}
+.per{
+    color: #000000;
+    opacity: .5;
+}
