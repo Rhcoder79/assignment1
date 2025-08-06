@@ -3,7 +3,9 @@
     padding: 0;
 
 }
-
+button:hover{
+    background-color: orange;
+}
  /* navbar start */
 .navbar{
 background-image: url(images/Hero-bg.png);
@@ -80,7 +82,7 @@ gap: 10px;
     width: 80%;
  margin: auto;
     background-color: rgb(218, 215, 215);
-    padding: 40px;
+    padding: 40px;  
 }
 .fir-chi{
     text-align: center;
@@ -99,6 +101,47 @@ gap: 10px;
     color: #000000;
     opacity: .5;
 }
+/* review start
+     box-shadow: 1px 1px 5px 1px;;  
+
+ */
+
+ .re-fir-chi{
+    margin-top: 20px;
+    text-align: center;
+ }
+
+ .re-sec-chi{
+    display: flex;
+    box-sizing: border-box;
+justify-content: center;
+gap: 30px;
+}
+.chi-re{
+  border:1px solid rgb(218, 215, 215);
+  border-radius: 5px;
+  padding: 5px;
+}
+ .star{
+    list-style: none;
+    display: flex;
+    color: orange;
+    font-size: 160%;
+ }
+ .name{
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+ }
+ .pro>p{
+    opacity: .8;
+ }
+ .pro>span{
+    opacity: .5;
+ }
+ .name>img{
+    border-radius: 50px;
+ }
 /* let's get in touch start */
 
 .Get{
@@ -124,4 +167,42 @@ border: 1px solid #000;
     padding: 19px 101px ;
     border-radius: 10px;
     margin-top: 10px;
+}
+.logo-list{
+    display: flex;
+    flex-direction: column;
+text-align: center;
+}
+/* footer part start */
+.foot{
+    margin: 0 auto;
+  
+}
+.foot>b{
+    font-size: 50px;
+}
+.menu-low{
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+ gap: 20px;
+}
+.menu-low>li{
+    list-style: none;
+}
+.list{
+    margin: 0 auto;
+}
+
+.logo-text>p{
+    color: #8987A1;
+}
+.menu-low>li>a{
+text-decoration: none;
+color: #8987A1;
+}
+button:hover{
+    background-color: orange;
+    transition: 1s;
+    zoom: 150%;
 }
